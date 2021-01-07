@@ -1,13 +1,18 @@
 import './App.css';
+import Review from './components/review/review';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+   
+      <main>
 
-            <h1>Hello, World</h1>
+        <Review/>
+          
+      </main>
 
-      </header>
     </div>
   );
 }
