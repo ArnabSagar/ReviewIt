@@ -1,18 +1,16 @@
 import './App.css';
 import Review from './components/review/review';
-
+import Navbar from './components/navbar.js';
 
 
 function App() {
   return (
     <div className="App">
-   
       <main>
-
-        <Review/>
-          
+        <Navbar />
+        
+        <Review />
       </main>
-
     </div>
   );
 }
