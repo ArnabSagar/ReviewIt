@@ -1,15 +1,18 @@
 import './App.css';
 import Review from './components/review/review';
-import Navbar from './components/navbar.js';
+import Navbar from './components/navbar/navbar';
 
 
 function App() {
+
+  const title = "Movie title"
+
   return (
     <div className="App">
+
       <main>
         <Navbar />
-        
-        <Review />
+        <Review title={title}/>
       </main>
     </div>
   );
